@@ -1,8 +1,6 @@
 """Главный модуль приложения «Калькулятор».
 
-Организует цикл обработки выражений, координирует вызов подсистем
-интерфейса, вычислений и области данных «Журнал вычислений».
-"""
+
 from parser import tokenize, to_rpn
 from evaluator import evaluate
 from journal import create_journal, add_record, show_history
